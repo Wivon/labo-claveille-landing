@@ -1,4 +1,5 @@
 import './App.css'
+import logoGlass from './assets/logo-glass.png'
 
 const DOWNLOADS = [
   {
@@ -55,7 +56,13 @@ function App() {
   return (
     <div className="app-shell">
       <header className="hero-header">
-        <p className="eyebrow">Labo Claveille</p>
+        <img
+          className="hero-logo"
+          src={logoGlass}
+          alt="Logo Labo Claveille"
+          loading="lazy"
+        />
+        <span className="sr-only">Labo Claveille</span>
         <h1>Télécharger Labo Claveille</h1>
         <p className="hero-subtitle">
           Logiciel pour élèves et enseignants : installation rapide, hors connexion,
@@ -70,7 +77,6 @@ function App() {
             <a href={primary.url} className="primary-button" download>
               Télécharger pour {primary.label}
             </a>
-            <p className="detected-note">Détecté : {primary.label}</p>
           </div>
 
           <div className="download-grid">
@@ -97,7 +103,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            GitHub (AC Sciences)
+            GitHub
           </a>
           .
         </p>
@@ -105,8 +111,8 @@ function App() {
 
       <footer className="page-footer">
         <span>Made in France</span>
-        <span>Lycée Albert Claveille</span>
-        <a className="contact-button" href="mailto:contact@labo-claveille.fr">
+        <span>Créé par des élèves du Lycée Albert Claveille</span>
+        <a className="contact-button" href="mailto:contact@vecting.org">
           Contact
         </a>
       </footer>
