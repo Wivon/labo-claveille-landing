@@ -10,7 +10,7 @@ const DOWNLOADS = [
     id: 'windows',
     label: 'Windows',
     description: '(.exe package)',
-    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-1.0.2.exe',
+    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-1.1.0.exe',
   },
   {
     id: 'macos',
@@ -141,7 +141,7 @@ function App() {
         <div className="release-header">
           <p className="download-label">Dernière release</p>
           <p className="release-subtitle">
-            Contenu publié sur GitHub (AC Sciences).
+            Contenu publié sur GitHub.
           </p>
         </div>
         {releaseInfo.status === 'loading' && <p>Chargement des notes…</p>}

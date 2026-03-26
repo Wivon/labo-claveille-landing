@@ -138,7 +138,7 @@
   justify-content: center;
   padding: 14px 32px;
   border-radius: 999px;
-  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  background: linear-gradient(135deg, #38bdf8, #2ca4d8);
   color: #020617;
   font-weight: 600;
   text-decoration: none;
@@ -148,7 +148,7 @@
 
 .primary-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.35);
+  box-shadow: 0 10px 25px rgba(105, 107, 235, 0.35);
 }
 
 .download-grid {
