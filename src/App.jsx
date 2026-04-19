@@ -10,7 +10,7 @@ const DOWNLOADS = [
     id: 'windows',
     label: 'Windows',
     description: '(.exe package)',
-    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-1.1.0.exe',
+    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-2026.exe',
   },
   {
     id: 'macos',
