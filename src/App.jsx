@@ -16,13 +16,13 @@ const DOWNLOADS = [
     id: 'macos',
     label: 'macOS',
     description: '(.dmg installer)',
-    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-1.0.2.dmg',
+    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-2026.dmg',
   },
   {
     id: 'linux',
     label: 'Linux',
     description: '(.AppImage / .deb)',
-    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-1.0.2.AppImage',
+    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-2026.AppImage',
   },
 ]
 
