@@ -10,19 +10,19 @@ const DOWNLOADS = [
     id: 'windows',
     label: 'Windows',
     description: '(.exe package)',
-    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-2026.exe',
+    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-2026.2.exe',
   },
   {
     id: 'macos',
     label: 'macOS',
     description: '(.dmg installer)',
-    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-2026.dmg',
+    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-2026.2.dmg',
   },
   {
     id: 'linux',
     label: 'Linux',
     description: '(.AppImage / .deb)',
-    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-2026.AppImage',
+    url: 'https://github.com/Wivon/AC-Sciences/releases/download/prod/Labo-Claveille-2026.2.AppImage',
   },
 ]
 
